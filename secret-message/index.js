@@ -34,5 +34,8 @@ let secretMessage = [
   secretMessage.splice(6, 5, "know,");
   
   console.log(secretMessage.join(" "));
+
+  console.log('fixed git email');
+  
   
   
