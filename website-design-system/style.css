@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Commissioner&display=swap');
+
 * {
 	font-family: 'Commissioner', sans-serif;
 }
@@ -19,6 +21,7 @@ h2 {
 	margin: 10px;
 }
 
+/* Color Pallete Styling */
 .color-palette {
 	display: inline-block;
 	align-items: center;
@@ -105,4 +108,45 @@ p .color {
 	margin: 5px;
 	position: relative;
 	width: 150px;
+}
+
+/* Typography Styling */
+h3 {
+	margin: 10px;
+}
+
+.heading1 {
+	font-size: xx-large;
+	font-weight: 800;
+}
+
+.heading2 {
+	font-size: large;
+	font-weight: 600;
+	margin: 10px;
+}
+
+.heading3 {
+	font-size: medium;
+	font-weight: 400;
+	margin: 10px;
+}
+
+.heading4 {
+	font-size: small;
+	font-weight: 300;
+	margin: 10px;
+}
+
+.image {
+	width: 75%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.image-description {
+	display: center;
+	text-align: center;
+	justify-content: center;
 }
